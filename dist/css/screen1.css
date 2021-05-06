@@ -1,0 +1,29 @@
+.screen1 {
+  float: left;
+  width: 100%;
+  margin: 25px 0 0 0;
+}
+
+.screen1 .heading {
+  float: left;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.screen1 .heading .description {
+  float: left;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.screen1 .heading .description p {
+  margin: 0;
+  font-size: 20px;
+}
+/*# sourceMappingURL=screen1.css.map */

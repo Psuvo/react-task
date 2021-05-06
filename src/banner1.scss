@@ -1,0 +1,15 @@
+.img-responsive {
+  width: 100%;
+}
+
+.banner-field {
+  float: left;
+  width: 100%;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  .banner1 {
+    float: left;
+    width: 50%;
+  }
+}

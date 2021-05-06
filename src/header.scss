@@ -1,0 +1,40 @@
+.img-responsive {
+  width: 100%;
+}
+
+.header {
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px 0;
+  border-bottom: 1px solid #ececec;
+  .logo {
+    float: left;
+    width: 15%;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .programme {
+    float: left;
+    width: auto;
+    padding: 10px 50px;
+    border: 1px solid #000;
+    p {
+      margin: 0;
+      font-size: 20px;
+    }
+  }
+  .userimg {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

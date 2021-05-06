@@ -1,0 +1,21 @@
+.img-responsive {
+  width: 100%;
+}
+
+.banner-field {
+  float: left;
+  width: 100%;
+  margin: 10px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner-field .banner1 {
+  float: left;
+  width: 50%;
+}
+/*# sourceMappingURL=banner1.css.map */

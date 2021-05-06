@@ -1,0 +1,114 @@
+.img-responsive {
+  width: 100%;
+}
+
+.active {
+  background: #006aff !important;
+  border: 1px solid #006aff !important;
+  color: #fff !important;
+}
+
+.screen1 {
+  float: left;
+  width: 100%;
+  margin: 25px 0 0 0;
+  .heading {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+    .description {
+      float: left;
+      width: fit-content;
+      p {
+        margin: 0;
+        font-size: 30px;
+      }
+    }
+    .searchArea {
+      float: left;
+      width: auto;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      right: 30px;
+      padding: 5px 10px;
+      border: 1px solid #000;
+      border-radius: 20px;
+      .searchimg {
+        float: left;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+      }
+      .inputArea {
+        float: left;
+        margin-left: 5px;
+        width: 16vw;
+        input {
+          padding: 5px 0;
+          border: none;
+          width: 100%;
+          outline: none;
+        }
+        ::placeholder {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .hospital-list {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    ul {
+      margin: 0 0 10px 0;
+      padding: 0;
+      width: 50%;
+      list-style: none;
+      text-align: center;
+      li {
+        display: inline-block;
+        margin: 1% 2% 1% 2%;
+        font-size: 15px;
+        font-weight: 500;
+        max-width: 30%;
+        width: 20%;
+        padding: 5px 10px;
+        background: #fff;
+        border-radius: 20px;
+        border: 1px solid #d8d8d8;
+        cursor: pointer;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+        box-shadow: 0px 2px 5px 1px #928f8f;
+      }
+    }
+  }
+  .btn {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    button {
+      font-size: 20px;
+      color: #fff;
+      background: #006aff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    :disabled {
+      opacity: 0.3;
+    }
+  }
+}
